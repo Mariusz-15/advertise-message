@@ -1,0 +1,71 @@
+.advertise-message {
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+  display: flex;
+  width: 310px;
+  height: 100px;
+
+  .image-container {
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    z-index: 3;
+    text-align: center;
+    box-shadow: 0 0 2px 0 black;
+    display: flex;
+    position: absolute;
+
+    img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      margin: auto;
+    }
+  }
+
+  .message-container {
+    background-color: white;
+    width: 230px;
+    height: 50px;
+    margin-top: 15px;
+    left: 40px;
+    padding-left: 40px;
+    z-index: 2;
+    font-size: 14px;
+    border-radius: 0 25px 25px 0;
+    box-shadow: 0 0 2px 0 black;
+    position: absolute;
+
+    #current-date {
+      color: blue;
+    }
+
+    #current-message {
+      color: orange;
+    }
+  }
+
+  .redirect-button {
+    background-color: orange;
+    margin: auto auto 0 auto;
+    width: 120px;
+    height: 37px;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    box-shadow: 0 0 2px 0 black;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+
+  p {
+    margin: 5px;
+  }
+}
+
+
+
+
+

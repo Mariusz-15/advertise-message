@@ -1,0 +1,19 @@
+<div class="advertise-message">
+  <div class="image-container">
+    <img src="../assets/img-placeholder.jpg" />
+  </div>
+  <div class="message-container">
+    <p id="current-date">
+      {{ newDate | date : 'y-MM-dd  H:mm' }}
+    </p>
+    <p id="current-message">
+      {{ newMessage }}
+    </p>
+  </div>
+  <button class="redirect-button" (click)="redirect()">
+    <p>Zobacz!</p>
+  </button>
+</div>
+
+
+
